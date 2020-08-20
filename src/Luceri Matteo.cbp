@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Luceri Matteo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="Luceri_Matteo" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++0x" />
+		</Compiler>
+		<Linker>
+			<Add option="-std=c++0x" />
+		</Linker>
+		<Unit filename="Adiacenza.h" />
+		<Unit filename="Agenda.cpp" />
+		<Unit filename="Agenda.h" />
+		<Unit filename="AlberoNario.h" />
+		<Unit filename="Appunto.cpp" />
+		<Unit filename="Appunto.h" />
+		<Unit filename="Astro.cpp" />
+		<Unit filename="Astro.h" />
+		<Unit filename="Astrostatidialoghi.txt" />
+		<Unit filename="Attivita.cpp" />
+		<Unit filename="Attivita.h" />
+		<Unit filename="Autobus.cpp" />
+		<Unit filename="Autobus.h" />
+		<Unit filename="Automobile.cpp" />
+		<Unit filename="Automobile.h" />
+		<Unit filename="Azione.cpp" />
+		<Unit filename="Azione.h" />
+		<Unit filename="Bacheca.cpp" />
+		<Unit filename="Bacheca.h" />
+		<Unit filename="Bagagliaio.cpp" />
+		<Unit filename="Bagagliaio.h" />
+		<Unit filename="Banca.cpp" />
+		<Unit filename="Banca.h" />
+		<Unit filename="Batteria.cpp" />
+		<Unit filename="Batteria.h" />
+		<Unit filename="Biglietto.cpp" />
+		<Unit filename="Biglietto.h" />
+		<Unit filename="BinAlbero.h" />
+		<Unit filename="Cammini.nav" />
+		<Unit filename="Canzone.h" />
+		<Unit filename="CartadiCredito.cpp" />
+		<Unit filename="CartadiCredito.h" />
+		<Unit filename="Cella.h" />
+		<Unit filename="CellaGrafo.h" />
+		<Unit filename="CellaNodo.h" />
+		<Unit filename="Cella_L_DP.h" />
+		<Unit filename="Cella_Pila_P_Mono.h" />
+		<Unit filename="Cella_albero_n.h" />
+		<Unit filename="Cellaa.h" />
+		<Unit filename="Cellam.h" />
+		<Unit filename="Cellams.h" />
+		<Unit filename="Cellanalbero.h" />
+		<Unit filename="Chiarappa Rosa.dev" />
+		<Unit filename="Coda.h" />
+		<Unit filename="DescData.cpp" />
+		<Unit filename="DescData.h" />
+		<Unit filename="Dialoghi.txt" />
+		<Unit filename="Dialogo.cpp" />
+		<Unit filename="Dialogo.h" />
+		<Unit filename="Dizionario.h" />
+		<Unit filename="Documenti.cpp" />
+		<Unit filename="Documenti.h" />
+		<Unit filename="Documento.cpp" />
+		<Unit filename="Documento.h" />
+		<Unit filename="Domanda.cpp" />
+		<Unit filename="Domanda.h" />
+		<Unit filename="Entry.h" />
+		<Unit filename="Ferita.cpp" />
+		<Unit filename="Ferita.h" />
+		<Unit filename="Gioco.cpp" />
+		<Unit filename="Gioco.h" />
+		<Unit filename="Grafo.h" />
+		<Unit filename="Insieme.h" />
+		<Unit filename="Interfaccia.cpp" />
+		<Unit filename="Interfaccia.h" />
+		<Unit filename="JukeLuci.txt" />
+		<Unit filename="Lista.h" />
+		<Unit filename="Listaa.h" />
+		<Unit filename="Luce.cpp" />
+		<Unit filename="Luce.h" />
+		<Unit filename="Luogo.cpp" />
+		<Unit filename="Luogo.h" />
+		<Unit filename="Mappa.cpp" />
+		<Unit filename="Mappa.h" />
+		<Unit filename="Mappa.nav" />
+		<Unit filename="MappaAliena.nav" />
+		<Unit filename="MappaOsservatorio.nav" />
+		<Unit filename="Mappapassato.nav" />
+		<Unit filename="Motorino.cpp" />
+		<Unit filename="Motorino.h" />
+		<Unit filename="Museo.cpp" />
+		<Unit filename="Museo.h" />
+		<Unit filename="Nalbero.h" />
+		<Unit filename="Negozio.cpp" />
+		<Unit filename="Negozio.h" />
+		<Unit filename="Nodo_Albero_Binario.h" />
+		<Unit filename="Nodo_cursore.h" />
+		<Unit filename="Nodo_etichetta.h" />
+		<Unit filename="Nodo_predecessore.h" />
+		<Unit filename="Oggetti.cpp" />
+		<Unit filename="Oggetti.h" />
+		<Unit filename="Oggetto.cpp" />
+		<Unit filename="Oggetto.h" />
+		<Unit filename="Palestra.cpp" />
+		<Unit filename="Palestra.h" />
+		<Unit filename="Personaggi.cpp" />
+		<Unit filename="Personaggi.h" />
+		<Unit filename="Pila.h" />
+		<Unit filename="Portafoglio.cpp" />
+		<Unit filename="Portafoglio.h" />
+		<Unit filename="Premi.cpp" />
+		<Unit filename="Premi.h" />
+		<Unit filename="Premio.cpp" />
+		<Unit filename="Premio.h" />
+		<Unit filename="Prioricoda - Copia.h" />
+		<Unit filename="Prioricoda.h" />
+		<Unit filename="Priorielem.h" />
+		<Unit filename="Prodotto.cpp" />
+		<Unit filename="Prodotto.h" />
+		<Unit filename="Scheda.cpp" />
+		<Unit filename="Scheda.h" />
+		<Unit filename="Servizi_Lista.h" />
+		<Unit filename="ServizioAlbero.h" />
+		<Unit filename="ServizioInsieme.h" />
+		<Unit filename="ServizioPila.h" />
+		<Unit filename="ServizioTrasporti.cpp" />
+		<Unit filename="ServizioTrasporti.h" />
+		<Unit filename="StanzaMuseo.cpp" />
+		<Unit filename="StanzaMuseo.h" />
+		<Unit filename="Statidialoghi.txt" />
+		<Unit filename="Stato.cpp" />
+		<Unit filename="Stato.h" />
+		<Unit filename="StatoFisico.cpp" />
+		<Unit filename="StatoFisico.h" />
+		<Unit filename="StatoSalute.cpp" />
+		<Unit filename="StatoSalute.h" />
+		<Unit filename="Transazioni.cpp" />
+		<Unit filename="Transazioni.h" />
+		<Unit filename="Trasporti.nav" />
+		<Unit filename="Trasporto.cpp" />
+		<Unit filename="Trasporto.h" />
+		<Unit filename="UfficioPostale.cpp" />
+		<Unit filename="UfficioPostale.h" />
+		<Unit filename="Veicolo.cpp" />
+		<Unit filename="Veicolo.h" />
+		<Unit filename="Via.cpp" />
+		<Unit filename="Via.h" />
+		<Unit filename="Vialuogo.cpp" />
+		<Unit filename="Vialuogo.h" />
+		<Unit filename="Vocabolo.cpp" />
+		<Unit filename="Vocabolo.h" />
+		<Unit filename="Zaino.cpp" />
+		<Unit filename="Zaino.h" />
+		<Unit filename="astro" />
+		<Unit filename="canzone.cpp" />
+		<Unit filename="cella_coda.h" />
+		<Unit filename="desc_luoghi_pag.txt" />
+		<Unit filename="enigma.cpp" />
+		<Unit filename="enigma.h" />
+		<Unit filename="enigma.txt" />
+		<Unit filename="f_array.cpp" />
+		<Unit filename="f_array.h" />
+		<Unit filename="luogoufficio.cpp" />
+		<Unit filename="luogoufficio.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="nodo_template.h" />
+		<Unit filename="risposta.cpp" />
+		<Unit filename="risposta.h" />
+		<Unit filename="rubrica.cpp" />
+		<Unit filename="rubrica.h" />
+		<Unit filename="servizioLista.h" />
+		<Unit filename="stato_comando.cpp" />
+		<Unit filename="stato_comando.h" />
+		<Unit filename="storia.cpp" />
+		<Unit filename="storia.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,17 @@
+5
+43
+43,Luogotrasporto,000000000044,via 8,1,1
+44,Nella prima sala dell'osservatorio,004745004300,via 8,1,1
+45,Nella seconda sala dell'osservatorio,004600440000,via 8,1,1
+46,Nella terza sala dell'osservatorio,450000470000,via 8,1,1
+47,Nella quarta sala dell'osservatorio,444600000000,via 8,1,1
+43,44,via 8,scendi,1,1,1,1
+44,35,via 8,sali,1,1,1,1
+44,47,via 8,sud,1,1,1,1
+44,45,via 8,est,1,1,1,1
+45,46,via 8,sud,1,1,1,1
+45,44,via 8,ovest,1,1,1,1
+46,45,via 8,nord,1,1,1,1
+46,47,via 8,ovest,1,1,1,1
+47,44,via 8,nord,1,1,1,1
+47,46,via 8,sud,1,1,1,1

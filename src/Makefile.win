@@ -1,0 +1,199 @@
+# Project: Chiarappa Rosa
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Agenda.o Appunto.o Astro.o Attivita.o Autobus.o Automobile.o Azione.o Bacheca.o Bagagliaio.o Banca.o Batteria.o Biglietto.o canzone.o CartadiCredito.o DescData.o Dialogo.o Documenti.o Documento.o Domanda.o enigma.o f_array.o Ferita.o Gioco.o Interfaccia.o Luce.o Luogo.o luogoufficio.o main.o Mappa.o Motorino.o Museo.o Negozio.o Oggetti.o Oggetto.o Palestra.o Personaggi.o Portafoglio.o Premi.o Premio.o Prodotto.o risposta.o rubrica.o Scheda.o ServizioTrasporti.o StanzaMuseo.o Stato.o stato_comando.o StatoFisico.o StatoSalute.o storia.o Transazioni.o Trasporto.o UfficioPostale.o Veicolo.o Via.o Vialuogo.o Vocabolo.o Zaino.o
+LINKOBJ  = Agenda.o Appunto.o Astro.o Attivita.o Autobus.o Automobile.o Azione.o Bacheca.o Bagagliaio.o Banca.o Batteria.o Biglietto.o canzone.o CartadiCredito.o DescData.o Dialogo.o Documenti.o Documento.o Domanda.o enigma.o f_array.o Ferita.o Gioco.o Interfaccia.o Luce.o Luogo.o luogoufficio.o main.o Mappa.o Motorino.o Museo.o Negozio.o Oggetti.o Oggetto.o Palestra.o Personaggi.o Portafoglio.o Premi.o Premio.o Prodotto.o risposta.o rubrica.o Scheda.o ServizioTrasporti.o StanzaMuseo.o Stato.o stato_comando.o StatoFisico.o StatoSalute.o storia.o Transazioni.o Trasporto.o UfficioPostale.o Veicolo.o Via.o Vialuogo.o Vocabolo.o Zaino.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -std=c++0x
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = "Chiarappa Rosa.exe"
+CXXFLAGS = $(CXXINCS) -std=c++0x
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Agenda.o: Agenda.cpp
+	$(CPP) -c Agenda.cpp -o Agenda.o $(CXXFLAGS)
+
+Appunto.o: Appunto.cpp
+	$(CPP) -c Appunto.cpp -o Appunto.o $(CXXFLAGS)
+
+Astro.o: Astro.cpp
+	$(CPP) -c Astro.cpp -o Astro.o $(CXXFLAGS)
+
+Attivita.o: Attivita.cpp
+	$(CPP) -c Attivita.cpp -o Attivita.o $(CXXFLAGS)
+
+Autobus.o: Autobus.cpp
+	$(CPP) -c Autobus.cpp -o Autobus.o $(CXXFLAGS)
+
+Automobile.o: Automobile.cpp
+	$(CPP) -c Automobile.cpp -o Automobile.o $(CXXFLAGS)
+
+Azione.o: Azione.cpp
+	$(CPP) -c Azione.cpp -o Azione.o $(CXXFLAGS)
+
+Bacheca.o: Bacheca.cpp
+	$(CPP) -c Bacheca.cpp -o Bacheca.o $(CXXFLAGS)
+
+Bagagliaio.o: Bagagliaio.cpp
+	$(CPP) -c Bagagliaio.cpp -o Bagagliaio.o $(CXXFLAGS)
+
+Banca.o: Banca.cpp
+	$(CPP) -c Banca.cpp -o Banca.o $(CXXFLAGS)
+
+Batteria.o: Batteria.cpp
+	$(CPP) -c Batteria.cpp -o Batteria.o $(CXXFLAGS)
+
+Biglietto.o: Biglietto.cpp
+	$(CPP) -c Biglietto.cpp -o Biglietto.o $(CXXFLAGS)
+
+canzone.o: canzone.cpp
+	$(CPP) -c canzone.cpp -o canzone.o $(CXXFLAGS)
+
+CartadiCredito.o: CartadiCredito.cpp
+	$(CPP) -c CartadiCredito.cpp -o CartadiCredito.o $(CXXFLAGS)
+
+DescData.o: DescData.cpp
+	$(CPP) -c DescData.cpp -o DescData.o $(CXXFLAGS)
+
+Dialogo.o: Dialogo.cpp
+	$(CPP) -c Dialogo.cpp -o Dialogo.o $(CXXFLAGS)
+
+Documenti.o: Documenti.cpp
+	$(CPP) -c Documenti.cpp -o Documenti.o $(CXXFLAGS)
+
+Documento.o: Documento.cpp
+	$(CPP) -c Documento.cpp -o Documento.o $(CXXFLAGS)
+
+Domanda.o: Domanda.cpp
+	$(CPP) -c Domanda.cpp -o Domanda.o $(CXXFLAGS)
+
+enigma.o: enigma.cpp
+	$(CPP) -c enigma.cpp -o enigma.o $(CXXFLAGS)
+
+f_array.o: f_array.cpp
+	$(CPP) -c f_array.cpp -o f_array.o $(CXXFLAGS)
+
+Ferita.o: Ferita.cpp
+	$(CPP) -c Ferita.cpp -o Ferita.o $(CXXFLAGS)
+
+Gioco.o: Gioco.cpp
+	$(CPP) -c Gioco.cpp -o Gioco.o $(CXXFLAGS)
+
+Interfaccia.o: Interfaccia.cpp
+	$(CPP) -c Interfaccia.cpp -o Interfaccia.o $(CXXFLAGS)
+
+Luce.o: Luce.cpp
+	$(CPP) -c Luce.cpp -o Luce.o $(CXXFLAGS)
+
+Luogo.o: Luogo.cpp
+	$(CPP) -c Luogo.cpp -o Luogo.o $(CXXFLAGS)
+
+luogoufficio.o: luogoufficio.cpp
+	$(CPP) -c luogoufficio.cpp -o luogoufficio.o $(CXXFLAGS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Mappa.o: Mappa.cpp
+	$(CPP) -c Mappa.cpp -o Mappa.o $(CXXFLAGS)
+
+Motorino.o: Motorino.cpp
+	$(CPP) -c Motorino.cpp -o Motorino.o $(CXXFLAGS)
+
+Museo.o: Museo.cpp
+	$(CPP) -c Museo.cpp -o Museo.o $(CXXFLAGS)
+
+Negozio.o: Negozio.cpp
+	$(CPP) -c Negozio.cpp -o Negozio.o $(CXXFLAGS)
+
+Oggetti.o: Oggetti.cpp
+	$(CPP) -c Oggetti.cpp -o Oggetti.o $(CXXFLAGS)
+
+Oggetto.o: Oggetto.cpp
+	$(CPP) -c Oggetto.cpp -o Oggetto.o $(CXXFLAGS)
+
+Palestra.o: Palestra.cpp
+	$(CPP) -c Palestra.cpp -o Palestra.o $(CXXFLAGS)
+
+Personaggi.o: Personaggi.cpp
+	$(CPP) -c Personaggi.cpp -o Personaggi.o $(CXXFLAGS)
+
+Portafoglio.o: Portafoglio.cpp
+	$(CPP) -c Portafoglio.cpp -o Portafoglio.o $(CXXFLAGS)
+
+Premi.o: Premi.cpp
+	$(CPP) -c Premi.cpp -o Premi.o $(CXXFLAGS)
+
+Premio.o: Premio.cpp
+	$(CPP) -c Premio.cpp -o Premio.o $(CXXFLAGS)
+
+Prodotto.o: Prodotto.cpp
+	$(CPP) -c Prodotto.cpp -o Prodotto.o $(CXXFLAGS)
+
+risposta.o: risposta.cpp
+	$(CPP) -c risposta.cpp -o risposta.o $(CXXFLAGS)
+
+rubrica.o: rubrica.cpp
+	$(CPP) -c rubrica.cpp -o rubrica.o $(CXXFLAGS)
+
+Scheda.o: Scheda.cpp
+	$(CPP) -c Scheda.cpp -o Scheda.o $(CXXFLAGS)
+
+ServizioTrasporti.o: ServizioTrasporti.cpp
+	$(CPP) -c ServizioTrasporti.cpp -o ServizioTrasporti.o $(CXXFLAGS)
+
+StanzaMuseo.o: StanzaMuseo.cpp
+	$(CPP) -c StanzaMuseo.cpp -o StanzaMuseo.o $(CXXFLAGS)
+
+Stato.o: Stato.cpp
+	$(CPP) -c Stato.cpp -o Stato.o $(CXXFLAGS)
+
+stato_comando.o: stato_comando.cpp
+	$(CPP) -c stato_comando.cpp -o stato_comando.o $(CXXFLAGS)
+
+StatoFisico.o: StatoFisico.cpp
+	$(CPP) -c StatoFisico.cpp -o StatoFisico.o $(CXXFLAGS)
+
+StatoSalute.o: StatoSalute.cpp
+	$(CPP) -c StatoSalute.cpp -o StatoSalute.o $(CXXFLAGS)
+
+storia.o: storia.cpp
+	$(CPP) -c storia.cpp -o storia.o $(CXXFLAGS)
+
+Transazioni.o: Transazioni.cpp
+	$(CPP) -c Transazioni.cpp -o Transazioni.o $(CXXFLAGS)
+
+Trasporto.o: Trasporto.cpp
+	$(CPP) -c Trasporto.cpp -o Trasporto.o $(CXXFLAGS)
+
+UfficioPostale.o: UfficioPostale.cpp
+	$(CPP) -c UfficioPostale.cpp -o UfficioPostale.o $(CXXFLAGS)
+
+Veicolo.o: Veicolo.cpp
+	$(CPP) -c Veicolo.cpp -o Veicolo.o $(CXXFLAGS)
+
+Via.o: Via.cpp
+	$(CPP) -c Via.cpp -o Via.o $(CXXFLAGS)
+
+Vialuogo.o: Vialuogo.cpp
+	$(CPP) -c Vialuogo.cpp -o Vialuogo.o $(CXXFLAGS)
+
+Vocabolo.o: Vocabolo.cpp
+	$(CPP) -c Vocabolo.cpp -o Vocabolo.o $(CXXFLAGS)
+
+Zaino.o: Zaino.cpp
+	$(CPP) -c Zaino.cpp -o Zaino.o $(CXXFLAGS)

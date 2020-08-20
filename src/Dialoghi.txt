@@ -1,0 +1,28 @@
+-Cid|1*Ciao, sono Cid!!$$Credi in Dio?$1:si$2:no$0:interrompi dialogo$#
+-Cid|11*Benissimo, sei gia' andato in chiesa?$$1:Si ci sono stato$2:Non ancora$0:interrompi dialogo$#
+-Cid|12*Male, molto male. Solo Lui puo' aiutarti!$#
+-Cid|111*Bene, ti sei confessato??$$1:Si$2:no$0:interrompi dialogo$#
+-Cid|112*Vai finche' sei tempo e purifica la tua anima confessandoti!$#
+-Cid|1111*Bravissimo!! Dio ti condurra' verso la salvezza!$#
+-Cid|1112*Tornaci e confessati! Che Dio ti benedica!!$#
+-Vincent|1*Ciao, sono Vincent!$$Preferisci il fast food oppure il ristorante?$1:Fast food$2:Ristorante$0:Interrompi dialogo$#
+-Vincent|11*Interessante, ci sei gia' stato?$1:Si$2:Non ancora$0:Interrompi dialogo$#
+-Vincent|12*Benissimo, ti consiglio di andarci per gustare delle specialita' galattiche!$Cosa ti piace mangiare?$1:Carne$2:Pesce$3:Verdure$0:Interrompi dialogo$#
+-Vincent|111*Grandioso, cosa ne pensi del fast food?$1:E' un buon posto e si mangia bene$2:Non ci andro' mai piu'$3:Mi sono trovato li di passaggio e non ho mangiato nulla$0:Interrompi dialogo$#
+-Vincent|112*Cosa aspetti?! Vai, prima che tu muoia di fame!!!$#
+-Vincent|121*Ottimo, credo che il loro arrosto sia uno dei piu' buoni in tutto l'universo!$#
+-Vincent|122*Hai gia' provato il loro misto di frutti di mare?$1:Si$2:No$0:interrompi dialogo$#
+-Vincent|123*Prova gli spinaci alla panna, sono deliziosi$#
+-Vincent|1111*Gia', lo penso anche io, prova anche il ristorante, l'ho trovato adorabile.$#
+-Vincent|1112*Mi dispiace, vorra' dire che andrai al ristorante per mangiare qualcosa.$#
+-Vincent|1113*Male, prova il loro gelato alla panna e' delizioso, ricordati di usare il coupon!$#
+-Vincent|1221*Io l'ho apprezzato molto!$#
+-Vincent|1222*Provalo, non te ne pentirai!$#
+-Kail|1*Ciao, sono Kail!$$Hai bisogno di cure?$1:Si, grazie$2:No, grazie$0:interrompi dialogo$#
+-Kail|11*Spero nulla di grave, hai gia' preso la tessera sanitaria?$1:Si$2:No$0:interrompi dialogo$#
+-Kail|12*Apprezzo il fatto che tu stia bene, se dovesse servirti recati al pronto soccorso.$#
+-Kail|111*Benissimo, corri al pronto soccorso e usa il terminale!$#
+-Kail|112*Cosa aspetti?! Hai almeno idea di dove si trovi?$1:Si, so dov'e'$2:Non ne ho la piu' pallida idea$0:interrompi dialogo$#
+-Kail|1121*Ottimo, corri a prenderla e recati al pronto soccorso!!!$#
+-Kail|1122*Come hai fatto a non vederla?! E' nella tua cabina! Prendila e vai al pronto soccorso!!!$#
+?

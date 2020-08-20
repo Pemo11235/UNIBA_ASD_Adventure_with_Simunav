@@ -1,0 +1,12 @@
+4
+49
+49,Nella sala del teletrasporto dell'astronave aliena,500000000000,via 9,1,1
+50,Nel corridoio sud dell'astronave aliena,514900000000,via 9,1,1
+51,Nel corridoio nord dell'astronave aliena,525000000000,via 9,1,1
+52,Nella sala comandi dell'astronave aliena,005100000000,via 9,1,1
+49,50,via 9,nord,1,1,1,1
+50,51,via 9,nord,1,1,1,1
+50,49,via 9,sud,1,1,1,1
+51,52,via 9,nord,1,1,1,1
+50,50,via 9,sud,1,1,1,1
+52,51,via 9,sud,1,1,1,1
