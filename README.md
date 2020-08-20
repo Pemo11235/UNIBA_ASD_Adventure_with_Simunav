@@ -3,7 +3,7 @@
 
 It is requested to modify the basic project (base1911 - Rosa C.) so that the features present in that of Michele S. are added, specifically, the inclusion of a backpack and a suitcase. Furthermore, it is envisaged that the realization of at least two data structures are made interchangeable.
 
-![] (UNIBA_ASD.gif)
+![](UNIBA_ASD.gif)
 The functionalities to be implemented in the basic project are:
 The insertion of objects, a backpack or a suitcase, i.e. containers that allow the user to carry certain objects (such as helmet, overalls, gown or manual). You can also decide whether to take these items with you or put them in your suitcase or backpack.
 The backpack and suitcase have transportable weight limits. The position of these two containers will be fixed: with each new game they will always be in the same place, with the possibility of choosing whether to use them or not. It will not be possible to transport both
